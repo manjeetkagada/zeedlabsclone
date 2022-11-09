@@ -19,7 +19,6 @@
     align-items: center;
     padding: 10px;
     font-family: 'Roboto Condensed', sans-serif;
-
 }
 .navitems ul{
     display: flex;
@@ -44,5 +43,54 @@
     height: 15px;
     padding: 10px;
     cursor: pointer;
-   
+}
+
+
+.main_section{ 
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-top:30px;
+    gap: 2vw;
+}
+
+.left_content{ 
+ width: fit-content;
+ /* border: 1px solid red; */
+}
+.right_content{
+  width:38%;
+  margin-right: -10vw;
+}
+.right_content img{
+  width: 100%;
+}
+.left_content h1{
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-bottom: 25px;
+    font-size:45px;
+}
+.left_content p {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-bottom: 25px;
+    line-height: 20px;
+}
+
+.main_inputs{
+    display:flex;
+    flex-direction: column;
+    padding-right: 20%; 
+}
+
+.main_inputs input{
+    height: 40px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+}
+.main_inputs button{
+    height: 40px;
+    background:blue;
+    color: white;
+    border-radius: 4px;  
 }
