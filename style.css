@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar nav{
+    display: flex;
+    justify-content:space-around;
+}
+
+.navlogo{
+    font-weight: bold;
+    padding: 10px;
+
+}
+.navitems ul{
+    display: flex;
+}
+.navitems ul li{
+    list-style: none;
+    margin: 10px;
+}
+.navitems ul li a{
+    text-decoration: none;
+}
+.navsearch img {
+    width: 25px;
+    height: 25px;
+    padding: 10px;
+    cursor: pointer;
+   
+}
