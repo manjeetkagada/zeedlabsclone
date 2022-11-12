@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Work+Sans:ital,wght@1,600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Work+Sans:ital,wght@1,300;1,600&display=swap');
+:root{
+    --header_font: font-family: 'Roboto Condensed', sans-serif;
+    --header_para:font-family: 'Roboto Condensed', sans-serif;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -142,12 +147,14 @@
     height: 50px;
 }
 .card_items1 h4{
+    font-size: 22px;
     font-family: 'Roboto Condensed', sans-serif;
     padding-top: 5%;
 }
 .card_items1 p{
     font-size:19px;
     padding-top: 4%;
+    font-family: 'Roboto Condensed', sans-serif;        
    
 }
 
@@ -257,6 +264,54 @@
     width: 100%;
     object-fit: contain;
 }
+.header_collaboration{
+    text-align: center;
+    /* font-family: var(--header_font); */
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.parent_collaboration{
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+    margin-top: 4%;
+   
+}
+
+.left_coll{
+    display: flex;
+    flex-direction: column;
+    gap: 3%;
+    width: 20%;
+    padding-top: 3%;
+  
+
+}
+
+.inner1,.inner2,.inner3{
+    background: rgb(204, 171, 171);
+    padding: 5% 7%;
+    width: 70%;
+    height: 15%;
+}
+.inner1,.inner2,.inner3 p{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.inner1,.inner2,.inner3 h3{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.right_coll{
+    
+
+}
+.right_coll img{
+    width: 100%;
+
+
+}
+
+
 
 
 
